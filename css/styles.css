@@ -37,13 +37,13 @@ main {
   justify-content: space-between;
   gap: 1vh;
   margin: 2vh;
-  overflow: hidden;
 }
 
 .bookmark {
   position: relative;
   align-self: end;
   right: 8px;
+  bottom: 8px;
 }
 
 h3 {
@@ -74,4 +74,10 @@ footer {
   justify-content: space-evenly;
   height: 15vh;
   border: solid 2px;
+}
+
+#active {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
 }
