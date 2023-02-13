@@ -1,31 +1,77 @@
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 
 body {
+  margin: 0;
+  background-color: gainsboro;
+  line-height: 1.2;
 }
 
 header {
-  background-color: aquamarine;
+  background-color: lightcoral;
   width: 100vw;
-  max-height: 15vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
-  border-bottom: solid 2px;
-  padding: 12px;
-  max-height: 15vh;
-  margin-bottom: 2vh;
+  align-items: center;
+  border: solid 2px;
+}
+
+main {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  height: 30vh;
+  width: 40vh;
+  background-color: lightgreen;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1vh;
+  margin: 2vh;
+  overflow: hidden;
+}
+
+.bookmark {
+  position: relative;
+  align-self: end;
+  right: 8px;
+}
+
+h3 {
+  margin: 12px;
+}
+
+.hashtags {
+  display: flex;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  align-self: flex-start;
+}
+
+.hashtags > a {
+  text-decoration: none;
+  color: #171717;
+  background-color: lightskyblue;
+  padding: 4px;
+  border-radius: 12px;
 }
 
 footer {
-  background-color: aquamarine;
+  background-color: lightcoral;
   width: 100vw;
   display: flex;
   font-size: xx-large;
+  align-items: center;
   justify-content: space-evenly;
-  max-height: 15vh;
-  margin-top: 2vh;
-  border-top: solid 2px;
-  padding: 12px;
+  height: 15vh;
+  border: solid 2px;
 }
