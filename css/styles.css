@@ -9,9 +9,23 @@ body {
 header {
   background-color: aquamarine;
   width: 100vw;
+  max-height: 15vh;
   display: flex;
-  align-items: center;
   justify-content: center;
   border-bottom: solid 2px;
+  padding: 12px;
+  max-height: 15vh;
+  margin-bottom: 2vh;
+}
+
+footer {
+  background-color: aquamarine;
+  width: 100vw;
+  display: flex;
+  font-size: xx-large;
+  justify-content: space-evenly;
+  max-height: 15vh;
+  margin-top: 2vh;
+  border-top: solid 2px;
   padding: 12px;
 }
